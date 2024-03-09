@@ -1,8 +1,11 @@
-# React + Vite
+# Brand Page
+## Brand Page Elements
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Logo and Visual Identity
+- About Us Section
+- Menu
+- Contact Information
+- Sopping plateform
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screenshot 2024-03-09 131459](https://github.com/dheeraj9918/brandpage/assets/136745393/dc64e389-56eb-4059-8bbb-ecfd496b1f4b)
