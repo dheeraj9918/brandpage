@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+}
+:root{
+    --red: #D01C28;
+    --gray:#2e2e2e;
+
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.contairer{
+    max-width: 1280px;
+    margin:0 auto;
+}
+
+.Navbar{
+    display:flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+}
+.manubar{
+    display:flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.btn{
+    all: unset;
+    padding:6px 16px;
+    height:32px;
+    background: var(--red);
+    font-weight: 500;
+    color:white;
+    cursor: pointer;
+}
+.hero{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: calc(100vh - 72px);
+}
+.hero h1{
+    font-size: 108px;
+    font-weight: 800;
+    line-height: 102px;
+}
+.hero p {
+    font-weight: 400;
+    margin-top: 20px;
+    max-width: 400px;
+}
+.hero-btn{
+    display: flex;
+    margin-top: 30px;
+    gap:40px;
+}
+.btn1{
+    all: unset;
+    padding:4px 12px;
+    height:32px;
+    font-size: 24px;
+    background: var(--red);
+    font-weight: 500;
+    border:red 1px solid;
+    color:white;
+    cursor: pointer;
+}
+.btn2{
+    all: unset;
+    padding:4px 12px;
+    height:32px;
+    font-weight: 500;
+    font-size: 24px;
+    background-color: transparent;
+    color: black;
+    border:black 1px solid;
+    cursor: pointer;
+
+}
+.sopping-logo{
+    display: flex;
+    gap:40px;
+    margin-top: 10px;
+}
+.flipkart-img{
+    cursor: pointer
+}
+.amazon-img{
+    cursor: pointer;
+}
